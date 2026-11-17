@@ -26,3 +26,7 @@ sudo chown web_user:web_admins website_files
 
 # 4. Apply strict permissions (Owner: rwx, Group: r-x, Others: ---)
 sudo chmod 750 website_files
+
+## 🔄 Lesson 2: Process Management
+- Monitored processes using `ps aux` and `htop`.
+- Successfully identified and terminated a hanging process using `kill [PID]`.
